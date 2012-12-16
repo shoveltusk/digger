@@ -1,4 +1,6 @@
-session = new Session('sofia/external/babcockp@iptel.org');
+session = new Session();
+
+session.orginate(undefined, 'sofia/external/babcockp@iptel.org');
 	
 //new comment
 session.waitForAnswer(10000);	
